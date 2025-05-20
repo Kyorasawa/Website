@@ -1,4 +1,3 @@
-import styles from './Header.module.css';
 import Link from 'next/link';
 import './style.css';
 
@@ -43,7 +42,30 @@ export default function Home() {
                 <div className="socials">
                     <br/>
                     <h3 className="about">Socials</h3>
-                    <Link href="https://github.com/Kyorasawa" className="tui-link2">./github</Link>
+                    <ul className="nav-list">
+                        <li>
+                            <Link href="https://github.com/Kyorasawa" className="tui-link2">./github</Link>
+                        </li>
+                        <li>
+                            <Link href="https://t.me/kyorasawa" className="tui-link2">./telegram</Link>
+                        </li>
+                    </ul>
+                    <br/>
+                    <h3 className="about"> GitHub Stats</h3>
+                    <br/>
+                    <ul className="nav-list">
+                        <li>
+                            <img
+                                src="https://github-readme-stats.vercel.app/api?username=kyorasawa&show_icons=true&theme=github_dark"
+                                alt="GitHub Stats"/>
+                        </li>
+                        <li>
+                            <img
+                                src="https://github-readme-stats.vercel.app/api/top-langs/?username=kyorasawa&layout=compact&theme=github_dark"
+                                alt="Top Languages"/>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
