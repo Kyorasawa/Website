@@ -33,13 +33,45 @@
 }
 
 body {
-  padding-left: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   font-family: monospace;
   background-color: #1f2335;
   color:  #c0caf5;
 }
-
-
+.rounded-img {
+  border-radius: 200px;
+  width: 159px;
+  height: 150px;
+  border-color: #c0caf5;
+  border: 10px;
+}
+.profile {
+  font-size: 18px;
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  gap: 16px;           /* Отступ между аватаркой и текстом */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tui-link2 {
+  font-size: 19px;
+  font-family: monospace;
+  color: #7aa2f7 ;
+  background-color: #1f2335;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, text-shadow 0.2s;
+}
+.tui-link2:hover {
+  font-family: monospace;
+  color: #ff9e64;
+  background-color: #292e42;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, text-shadow 0.2s;
+}
 
 
 
