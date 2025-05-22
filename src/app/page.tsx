@@ -9,9 +9,9 @@ export default function Home() {
                     <nav>
                         <ul className="nav-list">
                             <li><Link href="/" className="tui-link">./home</Link></li>
-                            <li><Link href="/" className="tui-link">./project</Link></li>
-                            <li><Link href="/" className="tui-link">./blog</Link></li>
-                            <li><Link href="/" className="tui-link">./contact</Link></li>
+                            <li><Link href="/project" className="tui-link">./projects</Link></li>
+                            <li><Link href="/blog" className="tui-link">./blog</Link></li>
+                            <li><Link href="/contacts" className="tui-link">./contacts</Link></li>
                         </ul>
                     </nav>
                 </div>
