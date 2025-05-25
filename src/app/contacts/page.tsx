@@ -3,8 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 import "./style.css";
 
-
-
 export default function Page() {
     return (
         <div>
@@ -20,13 +18,14 @@ export default function Page() {
                     </nav>
                 </div>
             </header>
-            <div className="project">
+            <main className="project">
                 <h1>Contacts</h1>
-                <h1>========</h1>
-                <h1>Discord username: @kyorasawa</h1>
-                <h1>Telegram username: @kyorasawa</h1>
-                <h1>Mail: kyora@nnko.uk<h1>
-            </div>
+                <hr />
+                <p><strong>Discord username:</strong> @kyorasawa</p>
+                <p><strong>Telegram username:</strong> @kyorasawa</p>
+                <p><strong>Mail:</strong> kyora@nnko.uk</p>
+            </main>
         </div>
     );
 }
+
