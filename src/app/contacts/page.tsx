@@ -25,7 +25,7 @@ export default function Page() {
                 <h1>========</h1>
                 <h1>Discord username: @kyorasawa</h1>
                 <h1>Telegram username: @kyorasawa</h1>
-                <h1>Mail: kyorasawa@gmail.com</h1>
+                <h1>Mail: kyora@nnko.uk<h1>
             </div>
         </div>
     );
